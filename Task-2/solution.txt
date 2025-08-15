@@ -1,0 +1,20 @@
+FLAG{D4T4_GH0ST_C4UGHT}
+Stage 1:
+cd data_stream
+find . -type f -empty
+nano stage1_answer.txt
+Stage 2:
+mkdir tools
+cd tools
+tar -cvfz ../backups/system_tools.tar.gz diagnostics.sh
+Stage 3:
+bash diagnostics.sh 2> ../stage3_answer.txt
+Stage 4:
+cd ..
+cd assest_links
+find . -xtype l
+cd ..
+nano stage4_answer.txt
+Stage 5:
+bash syster/system_check.sh | tee flag.txt
+
