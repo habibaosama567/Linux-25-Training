@@ -2,13 +2,12 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+- **Time of grading:** Friday, August 15, 2025, 02:40 PM
 
 - **Task:** Task-2
 
-- **Result:** NOTSUBMITTED
+- **Result:** INCORRECT
 
-- **Comments:** Test execution failed (exit code: 2)
 
 Logs:
 ```bash
@@ -18,14 +17,19 @@ Setting up task environment...
 Executing test...
 [INFO] Checking Stage 1...
 [ERROR] Required file not found: Ghost/stage1_answer.txt
+[ERROR] Stage 1: Answer not found in stage1_answer.txt or incorrect format.
 [INFO] Checking Stage 2...
+[ERROR] Stage 2: Tool diagnostics.sh not found.
 [INFO] Checking Stage 3...
 [ERROR] Required file not found: Ghost/stage3_answer.txt
+[ERROR] Stage 3: Answer not found in stage3_answer.txt or incorrect format.
 [INFO] Checking Stage 4...
 [ERROR] Required file not found: Ghost/stage4_answer.txt
+[ERROR] Stage 4: Answer not found in stage4_answer.txt or incorrect format.
 [INFO] Checking Final Flag in report...
+[SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
 -------------------------------------
-[INFO] Final Score: 0 / 6
-[ERROR] Task not submitted.
+[INFO] Final Score: 4 / 8
+[ERROR] Task failed. Please review the stages and submission guidelines.
 ```
