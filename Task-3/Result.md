@@ -2,17 +2,20 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Saturday, August 16, 2025, 01:28 PM
+- **Time of grading:** Sunday, August 17, 2025, 12:55 AM
 
 - **Task:** Task-3
 
-- **Result:** INCORRECT
+- **Result:** CORRECT
 
 
 Logs:
 ```bash
 Setting up task environment...
 Running student solution with command filtering...
+15216
+15607
 Executing test...
-[FAIL] User 'hero' not found
+[OK] All checks passed
+Cleaning up...
 ```
