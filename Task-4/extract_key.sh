@@ -1,33 +1,35 @@
 #!/bin/bash
+# Script: extract_key.sh
+# Description: Extracts two archives (.zip or .tar.xz) into extracted_files folder
 
-# Check if exactly two arguments are provided
+set -e  # Exit if any command fails
+
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <archive1> <archive2>"
     exit 1
 fi
 
-# Create timestamped folder
-timestamp=$(date +%Y%m%d_%H%M%S)
-folder="extracted_$timestamp"
-mkdir -p "$folder"
+# Create target extraction folder
+outdir="extracted_files"
+mkdir -p "$outdir" || { echo "Failed to create $outdir"; exit 1; }
 
-# Function to extract an archive
 extract_archive() {
     local file="$1"
+    local dest="$2"
 
     if [[ "$file" == *.zip ]]; then
-        unzip -q "$file" -d "$folder"
+        unzip -o "$file" -d "$dest"
     elif [[ "$file" == *.tar.xz ]]; then
-        tar -xf "$file" -C "$folder"
+        tar -xJf "$file" -C "$dest"
     else
         echo "Unsupported file format: $file"
         exit 1
     fi
 }
 
-# Extract both archives
-extract_archive "$1"
-extract_archive "$2"
 
-echo "Extraction complete. Files are in '$folder'"
+extract_archive "$1" "$outdir"
+extract_archive "$2" "$outdir"
+
+
 
