@@ -1,20 +1,19 @@
 FLAG{D4T4_GH0ST_C4UGHT}
 Stage 1:
-cd data_stream
-find . -type f -empty
-nano stage1_answer.txt
+    cd data_stream
+    find . -type f -empty > ../stage1_answer.txt
+    cd ..
 Stage 2:
-mkdir tools
-cd tools
-tar -cvfz ../backups/system_tools.tar.gz diagnostics.sh
+    mkdir tools
+    tar -xvzf backups/system_tools.tar.gz -C tools
 Stage 3:
-bash diagnostics.sh 2> ../stage3_answer.txt
+    cd tools
+    bash diagnostics.sh 2> ../stage3_answer.txt
+    cd ..
 Stage 4:
-cd ..
-cd assest_links
-find . -xtype l
-cd ..
-nano stage4_answer.txt
+    cd asset_links
+    find . -xtype l > ../stage4_answer.txt
+    cd ..
 Stage 5:
-bash syster/system_check.sh | tee flag.txt
+    bash system/system_check.sh | tee flag.txt
 
