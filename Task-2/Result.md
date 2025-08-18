@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 17, 2025, 12:49 AM
+- **Time of grading:** Monday, August 18, 2025, 12:40 PM
 
 - **Task:** Task-2
 
@@ -17,7 +17,7 @@ Executing test...
 [INFO] Checking Stage 1...
 [ERROR] Stage 1: Answer not found in stage1_answer.txt or incorrect format.
 [INFO] Checking Stage 2...
-[ERROR] Stage 2: Tool diagnostics.sh not found.
+[ERROR] Stage 2: You should put extract diagnostics.sh in tools directory, Check stage2 in readme.
 [INFO] Checking Stage 3...
 [ERROR] Stage 3: Answer not found in stage3_answer.txt or incorrect format.
 [INFO] Checking Stage 4...
@@ -26,6 +26,6 @@ Executing test...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
 -------------------------------------
-[INFO] Final Score: 4 / 8
+[INFO] Final Score: 2 / 8
 [ERROR] Task failed. Please review the stages and submission guidelines.
 ```
