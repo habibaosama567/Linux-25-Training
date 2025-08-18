@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 06:24 PM
+- **Time of grading:** Monday, August 18, 2025, 07:25 PM
 
 - **Task:** Task-3
 
@@ -13,9 +13,9 @@ Logs:
 ```bash
 Setting up task environment...
 Running student solution with command filtering...
-15265
-15471
-15861
+15310
+15515
+15901
 Executing test...
 [OK] All checks passed
 Cleaning up...
