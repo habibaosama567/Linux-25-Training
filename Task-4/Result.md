@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 02:33 PM
+- **Time of grading:** Monday, August 18, 2025, 03:33 PM
 
 - **Task:** Task-4
 
@@ -18,7 +18,6 @@ Logs:
 [ERROR] Failed to create extracted_<timestamp> folder
 [INFO] Checking if .tar.xz archive was extracted correctly...
 [ERROR] tar.xz content not found or extraction failed
-[ERROR] Invalid extracted folder name format
 [ERROR] Script structure seems incomplete
 
 =========================
@@ -36,8 +35,7 @@ Logs:
 
 =========================
 Tests Passed : 0
-Tests Failed : 10
-Grade        : 0 / 8
+Tests Failed : 9
 =========================
 [INFO] Submission needs improvement
 [INFO] Cleaning up...
