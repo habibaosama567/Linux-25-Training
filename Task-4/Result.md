@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 03:15 AM
+- **Time of grading:** Monday, August 18, 2025, 02:33 PM
 
 - **Task:** Task-4
 
@@ -24,10 +24,8 @@ Logs:
 =========================
 [INFO] Testing part two...
 [INFO] Testing get_sum.sh functionality
-[ERROR] is_positive() function not found
 [ERROR] Loop structure missing
 [ERROR] User input handling missing
-[ERROR] Function missing return statements
 [ERROR] Sum calculation logic missing
 [INFO] Testing basic functionality with input: 5, -3, 10, 0
 [ERROR] Basic test failed - Expected: 15, Got: 
@@ -38,8 +36,8 @@ Logs:
 
 =========================
 Tests Passed : 0
-Tests Failed : 12
-Grade        : 0 / 10
+Tests Failed : 10
+Grade        : 0 / 8
 =========================
 [INFO] Submission needs improvement
 [INFO] Cleaning up...
